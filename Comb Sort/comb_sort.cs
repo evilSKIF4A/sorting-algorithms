@@ -1,4 +1,4 @@
-internal static int[] CombSort(int[] arr)
+internal static int[] comb_sort(int[] arr)
 {
     int n = arr.Length;
     bool swappend = false;

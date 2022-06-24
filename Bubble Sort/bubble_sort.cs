@@ -1,4 +1,4 @@
-internal static int[] BubbleSort(int[] arr)
+internal static int[] bubble_sort(int[] arr)
 {
     for(int i = 0; i < arr.Length; i++)
         for(int j = 1; j < arr.Length; j++)

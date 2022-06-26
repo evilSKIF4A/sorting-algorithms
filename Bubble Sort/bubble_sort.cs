@@ -4,9 +4,9 @@ internal static int[] bubble_sort(int[] arr)
         for(int j = 1; j < arr.Length; j++)
             if (arr[j] < arr[j - 1])
             {
-                int temp = arr[j];
+                int t = arr[j];
                 arr[j] = arr[j - 1];
-                arr[j - 1] = temp;
+                arr[j - 1] = t;
             }
     return arr;
 }

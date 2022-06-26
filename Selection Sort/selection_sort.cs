@@ -1,4 +1,4 @@
-internal static int[] selection_sort(int[] arr)
+internal static int[] SelectionSort(int[] arr)
 {
     for(int i = 0; i < arr.Length; ++i)
     {

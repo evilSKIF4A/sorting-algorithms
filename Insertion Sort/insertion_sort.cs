@@ -1,4 +1,4 @@
-internal static int[] insertion_sort(int[] arr)
+internal static int[] InsertionSort(int[] arr)
 {
     for(int i = 1; i < arr.Length; ++i)
     {

@@ -1,9 +1,9 @@
-internal static int[] merge_sort(int[] arr, int left, int right)
+internal static int[] MergeSort(int[] arr, int left, int right)
 {
     if (right - left == 1) return arr;
     int mid = (left + right) / 2;
-    merge_sort(arr, left, mid);
-    merge_sort(arr, mid, right);
+    MergeSort(arr, left, mid);
+    MergeSort(arr, mid, right);
     int[] tempArray = new int[arr.Length];
     int i = left, j = mid, k = left;
     while (i < mid && j < right)

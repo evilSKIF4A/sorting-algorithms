@@ -1,4 +1,4 @@
-internal static int[] quick_sort(int[] arr, int left, int right)
+internal static int[] QuickSort(int[] arr, int left, int right)
 {
     int x = arr[(left + right) / 2];
     int i = left, j = right - 1;

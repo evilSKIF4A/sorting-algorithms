@@ -1,4 +1,4 @@
-internal static int[] heap_sort(int[] arr, int n)
+internal static int[] HeapSort(int[] arr, int n)
 {
     for (int j = n / 2 - 1; j >= 0; j--) arr = heapify(arr, n, j);
     for (int i = n - 1; i >= 0; i--, n--)

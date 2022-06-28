@@ -1,4 +1,4 @@
-internal static int[] shell_sort(int[] arr)
+internal static int[] ShellSort(int[] arr)
 {
     for (int i = arr.Length / 2; i > 0; i /= 2)
         for (int j = i; j < arr.Length; ++j)

@@ -13,7 +13,7 @@ internal static int[] QuickSort(int[] arr, int left, int right)
             arr[j--] = temp;
         }
     }
-    if (left < j) arr = quick_sort(arr, left, j + 1);
-    if (i < right) arr = quick_sort(arr, i, right);
+    if (left < j) arr = QuickSort(arr, left, j + 1);
+    if (i < right) arr = QuickSort(arr, i, right);
     return arr;
 }
